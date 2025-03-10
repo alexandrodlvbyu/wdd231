@@ -1,0 +1,45 @@
+/* styles/mobile.css */
+
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.nav-links {
+    background-color: #023e8a;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.nav-links a {
+    padding: 15px;
+    display: block;
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+.intro {
+    flex-direction: column;
+}
+
+.size {
+    width: 90%;
+    max-width: 300px;
+    margin: 1rem;
+}
