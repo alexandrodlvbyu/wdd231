@@ -1,0 +1,65 @@
+[
+  {
+    "name": "TechCorp",
+    "address": "123 Tech Street",
+    "phone": "123-456-7890",
+    "website": "https://techcorp.com",
+    "image": "techcorp-logo.png",
+    "membershipLevel": 3,
+    "description": "A leading tech company"
+  },
+  {
+    "name": "HealthPlus",
+    "address": "456 Wellness Ave",
+    "phone": "987-654-3210",
+    "website": "https://healthplus.org",
+    "image": "healthplus-logo.png",
+    "membershipLevel": 2,
+    "description": "Healthcare solutions for everyone"
+  },
+  {
+    "name": "EcoBuild",
+    "address": "789 Greenway Blvd",
+    "phone": "555-123-4567",
+    "website": "https://ecobuild.com",
+    "image": "ecobuild-logo.png",
+    "membershipLevel": 1,
+    "description": "Sustainable building materials"
+  },
+  {
+    "name": "Foodies",
+    "address": "321 Gourmet Lane",
+    "phone": "555-987-6543",
+    "website": "https://foodies.com",
+    "image": "foodies-logo.png",
+    "membershipLevel": 2,
+    "description": "Delicious food delivery"
+  },
+  {
+    "name": "AutoFix",
+    "address": "654 Car Repair Rd",
+    "phone": "555-246-8100",
+    "website": "https://autofix.com",
+    "image": "autofix-logo.png",
+    "membershipLevel": 3,
+    "description": "Expert auto repair"
+  },
+  {
+    "name": "HomeStyle",
+    "address": "987 Decor Ave",
+    "phone": "555-135-7911",
+    "website": "https://homestyle.com",
+    "image": "homestyle-logo.png",
+    "membershipLevel": 1,
+    "description": "Home decoration and furniture"
+  },
+  {
+    "name": "TravelNow",
+    "address": "159 Explorer St",
+    "phone": "555-111-2222",
+    "website": "https://travelnow.com",
+    "image": "travelnow-logo.png",
+    "membershipLevel": 2,
+    "description": "Your travel companion"
+  }
+]
