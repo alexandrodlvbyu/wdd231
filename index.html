@@ -3,77 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Alexandro de la Vega Cros </title>
+    <title>Business Directory</title>
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/mobile.css" media="only screen and (max-width: 768px)">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    
-    <script src="scripts/course.js"> </script>
-    <script src="scripts/date.js"> </script>
-    <script src="scripts/navigation.js"> </script>
+    <script src="scripts/course.js"></script>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/navigation.js"></script>
     <link rel="icon" href="favicon.ico">
-    <meta property="og:title" content="Site course WDD231 of Alexandro de la Vega Cros" />
-    <meta property="og:type" content="image" />
-    <meta property="og:url" content="https://alexandrodlvbyu.github.io/wdd231/" />
-    <meta property="og:image" content="images/" />
+    <meta property="og:title" content="Site course WDD231 of Alexandro de la Vega Cros">
+    <meta property="og:type" content="image">
+    <meta property="og:url" content="https://alexandrodlvbyu.github.io/wdd231/">
+    <meta property="og:image" content="images/">
 </head>
 
 <body>
 
-    <main>
+<main>
+    <h1>Business Directory</h1> <!-- Correction de la première erreur -->
 
-        <h1><span>Alexandro de la Vega Cros</span></h1>
     <header>
         <img src="Images/alex.png" alt="guapo" class="guapo">
-   
+        <h2><span>Alexandro de la Vega Cros</span></h2> <!-- h2 au lieu de h1 -->
     </header>
    
     <nav>
         <a href="index.html">Home</a>
-        <a href="chamber/directory.html">Chamber</a>
+        <a href="chamber/index.html">Chamber</a>
         <a href="https://github.com/alexandrodlvbyu">Github Profile</a>
         <a href="https://www.linkedin.com/in/alejandro-de-la-vega-472371163/">LinkedIn</a>
     </nav>
-    
 
     <section class="hello">
-    <h2>Home</h2>
+        <h2>Home</h2>
 
-      <div class="intro">
+        <div class="intro">
+            <article class="size">
+                <h2>Course work</h2>
+            </article>
 
-     <article class="size">
-        <h2>Course work</h2>
-     </article>
-
-     <article class="size">
-        <h2> Toulouse, France</h2>
-
-        <img src="Images/toulouse.webp"" alt="Toulouse" class="toulouse">
-
-        <p> 
-            I live in Toulouse, in the south of France. To me, it's simply the best city in France
-        </p>
-     </article>
-
-      </div>
-
+            <article class="size">
+                <h2>Toulouse, France</h2>
+                <img src="Images/toulouse.webp" alt="Toulouse" class="toulouse"> <!-- Corrigé ici -->
+                <p>I live in Toulouse, in the south of France. To me, it's simply the best city in France</p>
+            </article>
+        </div>
     </section>
 
     <section>
         <h2>Web and Computer Programming Certificate</h2>
         <div id="course-list"></div> 
-    
     </section>
+</main>
 
-    
-    </main>
-
-    <footer>
-        <p>2025 Alexandro de la Vega Cros Toulouse, France</p>
-        <p>Last update: <span id="currentyear"></span></p>
-    </footer>
-
+<footer>
+    <p>2025 Alexandro de la Vega Cros Toulouse, France</p>
+    <p>Last update: <span id="currentyear"></span></p>
+</footer>
 
 </body>
 </html>
