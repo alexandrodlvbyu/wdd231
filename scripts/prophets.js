@@ -35,4 +35,5 @@ const displayProphets = (prophets) => {
   });
 };
 
+
 getProphetData();
